@@ -70,7 +70,13 @@ association_rules(frequent_itemsets,metric='confidence',min_threshold=0.001)
 
 - leverage : Leverage calculates the distance between the observed frequencies of itemsets and their expected frequencies if they are independent. A leverage of 0 indicates that the itemsets are independent, a leverage greater than 0 indicates that itemsets tend to occur together (positive correlation), and leverage less than 0 indicates that itemsets tend to appear opposite. each other (negative correlation).
 
+# Consclusion.
 
+Based on the result data table, we can arrange the aisles that have a significant impact on each other closer together, so that when customers buy a product, they will see related products nearby and buy them immediately. Arrange aisles with lift coefficients >1 closer together because they have a strong mutual influence. Arrange products to create a large ecosystem, making it easy for customers to see and search for them, and thus buy more.
+
+For products that have a high probability of being purchased after another product, we should also introduce other related products to boost sales.
+
+For products that have little interaction with each other, we can bundle them together to increase sales. For example, in this article, curd is purchased first, leading to subsequent purchases of products such as yogurt and soft cheese. The least purchased product is bottled beer, so we can create promotions such as including beer when buying curd with yogurt, etc., to increase sales and reduce inventory.
 
 
 
